@@ -31,6 +31,7 @@ public class CalculatorApplication {
                         wybrano = reader.nextInt();
                         System.out.println("Wpisz druga liczbe :");
                         wybrano2 = reader.nextInt();
+                        kalkulatorTest = new Calculator(wybrano, wybrano2);
                 }
                 if(userChoice == 5) {
                         System.out.println("Program zakonczyl dzialanie.");
